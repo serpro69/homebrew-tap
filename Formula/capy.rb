@@ -1,23 +1,23 @@
 class Capy < Formula
   desc "Context-aware MCP server for LLM context reduction"
   homepage "https://github.com/serpro69/capy"
-  version "0.2.0"
+  version "0.2.1"
   license "Elastic-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/serpro69/capy/releases/download/v0.2.0/capy_0.2.0_darwin_arm64.tar.gz"
-      sha256 "1b7cd2d0ec5adf24ad43006735a9e5ae984bc51713e5e4d3b1a2602ef0f9070e"
+      url "https://github.com/serpro69/capy/releases/download/v0.2.1/capy_0.2.1_darwin_arm64.tar.gz"
+      sha256 "b844752e5f4485d5484815be977c6e771529aabafdd31a263cd3971769052a12"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/serpro69/capy/releases/download/v0.2.0/capy_0.2.0_linux_arm64.tar.gz"
-      sha256 "d82c2fe2da0f3b63a677f3737a5605d7892e471a6630eb3d253c9a00ca495428"
+      url "https://github.com/serpro69/capy/releases/download/v0.2.1/capy_0.2.1_linux_arm64.tar.gz"
+      sha256 "7c116172f42cab87d04a25e8c1deadc9d5fad1faaf9b77c40ff31278fee3fc54"
     elsif Hardware::CPU.intel?
-      url "https://github.com/serpro69/capy/releases/download/v0.2.0/capy_0.2.0_linux_amd64.tar.gz"
-      sha256 "fce55f8e537574e69b7d6fceb2ba62fec2badafe6396422518c89626d00f8f37"
+      url "https://github.com/serpro69/capy/releases/download/v0.2.1/capy_0.2.1_linux_amd64.tar.gz"
+      sha256 "a0f6126c2dd3f81b77c74a7ef044ad5c3eede2234c91775ce8d866f70b6b6bbf"
     end
   end
 
